@@ -12,10 +12,10 @@ class App extends Component {
   }
 
 
-  
+
   async executarPesquisas(){
-    await buscarCidade('89874000')
-    await buscarCidade('89873000')
+    await this.buscarCidade('89874000')
+    await this.buscarCidade('89873000')
   }
 
   async buscarCidade(numeroDoCep){
